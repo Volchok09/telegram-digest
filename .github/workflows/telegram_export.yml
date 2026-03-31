@@ -1,0 +1,41 @@
+name: Telegram Daily Export
+
+on:
+  schedule:
+    # Каждый день в 18:00 по Москве (15:00 UTC)
+    - cron: '0 15 * * *'
+  workflow_dispatch: # Ручной запуск для тестирования
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run exporter
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
+          TELEGRAM_CHATS: ${{ secrets.TELEGRAM_CHATS }}
+          HOURS_BACK: "24"
+          OUTPUT_DIR: "data"
+        run: python telegram_exporter.py
+
+      - name: Commit and push export
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "📥 export $(date -u +%Y-%m-%d)"
+          git push
