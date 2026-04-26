@@ -1,0 +1,130 @@
+{
+  "exported_at": "2026-04-26T15:54:49.658129+00:00",
+  "period_hours": 24,
+  "since": "2026-04-25T15:54:41.446869+00:00",
+  "total_posts": 3,
+  "channels": [
+    {
+      "channel_id": "@mpstats_tools",
+      "channel_username": "mpstats_tools",
+      "channel_title": "Новости MPSTATS",
+      "posts": []
+    },
+    {
+      "channel_id": "@alfedyaev",
+      "channel_username": "alfedyaev",
+      "channel_title": "Маркетплейсы от практика: Александр Федяев",
+      "posts": []
+    },
+    {
+      "channel_id": "@ozon_adv",
+      "channel_username": "ozon_adv",
+      "channel_title": "Ozon Реклама",
+      "posts": []
+    },
+    {
+      "channel_id": "@wbsharks",
+      "channel_username": "wbsharks",
+      "channel_title": "Иван Куриленко (Акулы Wildberries и Ozon)",
+      "posts": []
+    },
+    {
+      "channel_id": "@ababruev",
+      "channel_username": "ababruev",
+      "channel_title": "Бабруев | Ветеран eCommerce",
+      "posts": []
+    },
+    {
+      "channel_id": "@analyticsmpstats",
+      "channel_username": "analyticsmpstats",
+      "channel_title": "MPSTATS",
+      "posts": []
+    },
+    {
+      "channel_id": "@davidmarketplace",
+      "channel_username": "davidmarketplace",
+      "channel_title": "Давид Геворкян",
+      "posts": []
+    },
+    {
+      "channel_id": "@ekspertmp",
+      "channel_username": "ekspertmp",
+      "channel_title": "Отменили CTR | Система на Маркетплейсах",
+      "posts": []
+    },
+    {
+      "channel_id": "@maxprowb",
+      "channel_username": "maxprowb",
+      "channel_title": "Max EVIRMA / Продвижение на Wildberries / LET`S ROCK on WB",
+      "posts": []
+    },
+    {
+      "channel_id": "@vladlen_strokan",
+      "channel_username": "vladlen_strokan",
+      "channel_title": "Владлен Строкань | Основатель Wildbox",
+      "posts": []
+    },
+    {
+      "channel_id": "@wildbox_news",
+      "channel_username": "wildbox_news",
+      "channel_title": "Wildbox.News",
+      "posts": []
+    },
+    {
+      "channel_id": "@kudahiko",
+      "channel_username": "kudahiko",
+      "channel_title": "Курятник 🪺 Продвижение на маркетплейсах.",
+      "posts": []
+    },
+    {
+      "channel_id": "@namarketplacewithleo",
+      "channel_username": "namarketplacewithleo",
+      "channel_title": "На маркетплейсах c Лео Шевченко ️",
+      "posts": [
+        {
+          "id": 8859,
+          "date": "2026-04-26T15:41:36+00:00",
+          "text": "❤️ **20 лет в бизнесе = 20 лет ошибок **\n\nЗаписал новый подкаст про решения, за которые потом платишь деньгами, временем и нервами.\n• ошибки, которые допускает почти каждый предприниматель\n• где чаще всего теряются деньги (и ты этого не замечаешь)\n• почему одни и те же грабли повторяются годами\n• и как это не тащить в свой бизнес\n\n📺 [СМОТРЕТЬ ВЫПУСК](https://youtu.be/ru30sMya24Q?si=_gxz7bDGwbSKvpWB)",
+          "views": 327,
+          "forwards": 4,
+          "replies": 0
+        },
+        {
+          "id": 8858,
+          "date": "2026-04-26T10:11:50+00:00",
+          "text": "Совокупные налоговые поступления в консолидированный бюджет от бизнеса и физлиц на спецрежимах в I квартале снизились на 22,2% год к году.\n\n НДС подняли, порог по УСН снизили, но.....налогов получили меньше.",
+          "views": 2239,
+          "forwards": 37,
+          "replies": 52
+        }
+      ]
+    },
+    {
+      "channel_id": "@wbbillion",
+      "channel_username": "wbbillion",
+      "channel_title": "Аналитик на миллиард | Wildberries",
+      "posts": [
+        {
+          "id": 2035,
+          "date": "2026-04-26T09:11:23+00:00",
+          "text": "**Введение НДС для китайский продавцов **⚡️\n\nМинфин РФ [направил](https://ria.ru/20260424/minfin-2088827163.html) в кабмин законопроект о поэтапном **введении НДС** для зарубежных товаров, купленных физлицами через маркетплейсы.**\n\n📌По этому документу:**\n\n▪️ В 2027 году ставка составит 7%\n\n▪️ В 2028-м – 14%\n\n▪️А с 2029 года будет **общая ставка** в размере 22%\n\nУплачивать НДС в качестве налоговых агентов будут зарубежные и российские **маркетплейсы**.\n\n**Еще одна маленькая победа над китайскими продавцами**🔥\n\n💙[VK](https://vk.com/wbbillion)    💬[Max](https://max.ru/wbbillion)    📝[Дзен](https://dzen.ru/id/69b26d0950d2f45d981ec16b)",
+          "views": 1500,
+          "forwards": 22,
+          "replies": 12
+        }
+      ]
+    },
+    {
+      "channel_id": "@marketplace_hogwarts",
+      "channel_username": "marketplace_hogwarts",
+      "channel_title": "Хогвартс маркетплейсов",
+      "posts": []
+    },
+    {
+      "channel_id": "-1003535878628",
+      "channel_username": "",
+      "channel_title": "Выживалити с Max EVIRMA",
+      "posts": []
+    }
+  ]
+}
